@@ -23,3 +23,17 @@ a{
     text-decoration: none;
     color: #E5E7EB
 }
+
+.section-one{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.section-one-left{
+    display: flex;
+    flex-direction: column;
+}
+.section-one-img img{
+    height: auto;
+    width: 400px;
+}
