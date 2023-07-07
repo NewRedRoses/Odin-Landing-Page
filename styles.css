@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+.logo-text{
+    font-family: 'Futura', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-links{
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB
+}
