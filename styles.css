@@ -1,6 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header{
     background-color: #1F2937;
@@ -27,11 +28,31 @@ a{
 .section-one{
     display: flex;
     gap:20px;
-    justify-content: center;
+    align-items: space-around;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 .section-one-left{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+.section-one-left .headline{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.section-one-left button {
+    width: fit-content;
+    height:30px;
+    background-color: #3882f6;
+    color:#E5E7EB;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+
 }
 .section-one-img img{
     height: auto;
