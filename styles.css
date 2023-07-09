@@ -8,7 +8,7 @@ body{
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    padding: 20px
+    padding: 20px;
 }
 .logo-text{
     font-family: 'Futura', 'Arial Narrow', Arial, sans-serif;
@@ -62,4 +62,34 @@ a{
     font-size: 36px;
     font-weight: light italic;
     justify-content: center;
+}
+.section-four{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    padding: 50px;
+}
+.call2action{
+    display: flex;
+    /* border: 2px solid green; */
+    width: 80%;
+    height: 150px;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.call2action .text{
+
+}
+.call2action .btn{
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 20px;
 }
