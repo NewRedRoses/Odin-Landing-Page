@@ -3,14 +3,13 @@ body{
     margin:0px;
     display: flex;
     flex-direction: column;
-    align-content: center;
 }
 .header{
     background-color: #1F2937;
     color:#E5E7EB;
     font-size: 18px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
 }
 .logo-text{
@@ -30,7 +29,6 @@ a{
 .section-one{
     display: flex;
     gap:20px;
-    align-items: center;
     justify-content: center;
     padding: 50px;
     background-color: #1F2937;
@@ -38,11 +36,9 @@ a{
 }
 .section-one-left{
     display: flex;
+    width: 400px;
     flex-direction: column;
     gap: 10px;
-    width: 500px;
-    flex: 1 1 auto;
-    flex-wrap: wrap;
 }
 .section-one-left .headline{
     font-size: 48px;
@@ -60,7 +56,7 @@ a{
     overflow: hidden;
 
 }
-.section-one-img img{
+.section-one img{
     height: auto;
     width: 400px;
 }
@@ -96,14 +92,23 @@ a{
 .section-three{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     border: 2px solid green;
-    align-items: center;
+    align-content: center;
+    padding: 150px;
+    align-items:center;
 }
-.quote{
+.section-three .quote{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 36px;
     font-weight: light italic;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    width: 800px;
+}
+.section-three .quote-author{
+    display: flex;
+    justify-content: flex-end;
 }
 .section-four{
     display: flex;
