@@ -80,7 +80,7 @@ a{
 .square{
     width: 250px;
     height: 250px;
-    /* border: rgba(0, 0, 255, 0.187) solid 2px; */
+    border: rgba(0, 0, 255, 0.187) solid 2px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -111,12 +111,14 @@ a{
     display: flex;
     font-size: 36px;
     font-style: italic;
+    word-wrap: break-word;
     /* border: 2px solid red; */
 }
 .section-three .quote-author {
     font-size: 18px;
      text-align: end;
      font-weight: bold;
+     margin: 10px;
 }
 .section-four{
     display: flex;
@@ -146,6 +148,10 @@ a{
     font-weight: bold;
     width: 100px;
     height:30px;
+}
+.call2action button:hover,.section-one-left button:hover{
+    background-color: #F9FAF8;
+    color:#3882f6
 }
 .footer{
     display: flex;
